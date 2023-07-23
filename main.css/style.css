@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ffffff;
+  --colo-secondary:rgb(254, 52, 125);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  margin-right: 2.7rem;
+  position: relative;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.menu ul button {
+  background-color: var(--colo-secondary);
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 1.2rem 1.5rem;
+  color: #ffffff;
+}
+
+.menu ul button:hover {
+  background-color: rgb(84, 82, 83);
+}
+
+.menu ul li a i {
+  align-items: center;
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
